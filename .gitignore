@@ -1,0 +1,24 @@
+# Private source and personal study content
+*.pdf
+*.epub
+*.djvu
+*.pgn
+*.chess
+*.zip
+*.7z
+*.png
+*.jpg
+*.jpeg
+.env
+.env.*
+*token*
+*secret*
+*api_key*
+__pycache__/
+.venv/
+node_modules/
+resources/
+research/
+backups/
+outputs/
+audit/

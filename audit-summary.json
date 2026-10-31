@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-31T15:12:13.304961+00:00",
+  "screened": 1223,
+  "total": 1223,
+  "deeper_checked": 20,
+  "depth24_completed": 20,
+  "review_required": 9,
+  "phase_status": "deep_complete",
+  "sources_unchanged": true,
+  "engine": "Stockfish 19",
+  "multipv": 3,
+  "settings": {
+    "screen": {
+      "multipv": 3,
+      "nodes": 500000,
+      "forced_nodes": 500000,
+      "threads": 3,
+      "hash_mb": 256
+    },
+    "deep": {
+      "multipv": 3,
+      "depth": 24,
+      "max_seconds_per_root": 90,
+      "threads": 3,
+      "hash_mb": 512
+    }
+  },
+  "scope": "All learner decisions in eight current opening training PGNs. Historical reading games, strategy and endings are outside this opening audit.",
+  "public_publication_performed": false,
+  "publication_boundary": "Private book-derived PGNs and teaching material remain excluded from public packaging, even if engine soundness is confirmed.",
+  "assessment_counts": {
+    "playable_move_with_stronger_alternative": 8,
+    "winning_position_precision": 1
+  }
+}

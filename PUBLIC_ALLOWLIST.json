@@ -1,0 +1,43 @@
+{
+  "status": "public_safe_release_prepared",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "e426a30908c29494916fe9e0fa031fe5b1e4728e54d462fe250f35dc5665b51c",
+      "bytes": 227
+    },
+    {
+      "path": "audit-summary.json",
+      "sha256": "b3becb3ac77ffd62c9c432f2fee908cb9839f24337ed259e1ec5a28499db5466",
+      "bytes": 1034
+    },
+    {
+      "path": "docs/AUDIT_METHOD.md",
+      "sha256": "048b4105e557f071ed758087c456447f50804123171228eb3fe2889f1d08e033",
+      "bytes": 1261
+    },
+    {
+      "path": "README.md",
+      "sha256": "68908e1a294984af80735f1236117553fc8a5214850ee036a9a1d12b8dfa2b2d",
+      "bytes": 3431
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "2caecd28e19cddfc13dd9a6639a5386ae8da7285f854dd7d6643e7910de8d10d",
+      "bytes": 14
+    },
+    {
+      "path": "tools/audit_opening_courses_20261031.py",
+      "sha256": "1c7cacb604157f4c6b133e2170e939e71f81998208c4692f4c5f09358db50e1d",
+      "bytes": 13918
+    },
+    {
+      "path": "weekly_chess_routine.csv",
+      "sha256": "01b287d0d07b41d39a8138d21fbe3554d60aa9180594c5522308a05d236fc076",
+      "bytes": 3216
+    }
+  ],
+  "excluded": "Books, all course PGNs/annotations, source scans/OCR, raw private audit positions, personal activity, archives and credentials",
+  "credential_pattern_scan": "pass",
+  "exact_file_allowlist": "pass"
+}
